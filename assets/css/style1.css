@@ -1,0 +1,187 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+/* nav */
+.nav
+{
+    background-color: #f44336;
+    position: fixed;
+    width: 100%;
+    box-shadow: 2px 2px 5px #85797c ;
+}
+.nav a
+{
+    text-decoration: none;
+    color: white;
+}
+.nav .list{
+    list-style-type: none;
+    display: flex;
+}
+.nav .list .home a
+{
+    color: black !important;
+}
+.nav .list .home 
+{
+    background-color: white;
+}
+.nav .list li
+{
+    padding: 5px 20px;
+}
+/* div1 */
+.div1
+{
+    background-color: #f44336;
+    padding: 56px 0 56px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.div1 .div1-2
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.div1 h1
+{
+    color: white;
+    margin-bottom: 20px;
+    font-size: 50px;
+    text-shadow: 1px 1px 2px white;
+}
+.div1 p
+{
+    color: white;
+    margin-bottom: 20px;
+}
+.div1 button
+{
+    background-color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 5px;
+    cursor: pointer;
+}
+.div1 button:hover
+{
+    transform: scale(1.1,1.1);
+    transition: .3s;
+    padding: 8px;
+    box-shadow: 2px 2px 5px 1px black;
+}
+/* div2 */
+.div2
+{ 
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.div2 .app
+{   
+    width: 55%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+}
+.div2 .app .item1 h4
+{
+    padding: 20px 0px;
+}
+.div2 .app .item1 p
+{
+    padding: 15px 0px;
+}
+.div2 .app .item1 .p2
+{
+    color: #85797c;
+}
+.div2 .app .item2 .anchor
+{
+    color: #f44336;
+    font-size: 100px;
+    padding-left: 10px;
+}
+/* div3 */
+.div3
+{
+    background-color: #f1f1f1;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.div3 .app
+{   
+    width: 55%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+}
+.div3 .app .item2 h4
+{
+    padding: 20px 0px;
+}
+.div3 .app .item2 p
+{
+    padding: 15px 0px;
+}
+.div3 .app .item2 .p2
+{
+    color: #85797c;
+}
+.div3 .app .item1 .coffe
+{
+    color: #f44336;
+    font-size: 100px;
+    padding-right: 20px;
+}
+/* div4 */
+.div4
+{
+    background-color: #666666;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+}
+/* footer */
+.footer 
+{
+    padding: 70px 0 70px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.footer .icons ul
+{   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #656565;
+    list-style: none;
+}
+.footer .icons ul li
+{
+    padding:2px;
+}
+.footer .to-w3 p a ,.footer .icons ul li a
+{
+    text-decoration: none;
+    color: #656565;
+}
+.footer .to-w3 p a:hover
+{
+    color: #f44336;
+    text-decoration: underline #f44336;
+}
